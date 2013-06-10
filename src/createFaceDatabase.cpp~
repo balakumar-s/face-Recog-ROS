@@ -83,7 +83,7 @@ int initiateDatabase(int argC,char** argV)
 {
 	ros::init(argC,argV,"opencvFaceDatabase");
 	ros::NodeHandle nh;
-	ros::Subscriber sub=nh.subscribe("/camera/rgb/image_color", 1,callback);
+	ros::Subscriber sub=nh.subscribe("/kinectSplitter/image", 1,callback);
 	ros::spin();
 	return(0);
 }
