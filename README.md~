@@ -9,5 +9,4 @@ ____________________________________________________
 
 ######createFaceDatabase.cpp
 creates the face database for eigenFaces. 
-
-######
+ 

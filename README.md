@@ -8,5 +8,7 @@ ____________________________________________________
 ######Files:
 
 ######createFaceDatabase.cpp
-creates the face database for eigenFaces. 
- 
+Creates the face database for eigenFaces. 
+
+######faceRecog.cpp
+Recognizes and outputs faces.  
