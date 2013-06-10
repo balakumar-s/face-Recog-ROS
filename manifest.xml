@@ -1,0 +1,18 @@
+<package>
+  <description brief="faceRecogROS">
+
+     faceRecogROS
+
+  </description>
+  <author>Balakumar</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/faceRecogROS</url>
+  <depend package="roscpp"/>
+  <depend package="opencv2"/>
+  <depend package="cv_bridge"/>
+  <depend package="sensor_msgs"/>
+
+</package>
+
+
